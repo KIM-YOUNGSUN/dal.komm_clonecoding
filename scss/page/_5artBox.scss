@@ -1,0 +1,44 @@
+// artBox.scss
+
+// mobile =====================================
+@include mobile {
+  #artBox {
+    width: 100%; height: 850px;
+    background-color: #eee;
+  }
+}
+
+
+
+
+
+// tablet =====================================
+@include tablet {
+  #artBox {
+    width: 100%; height: 1080px;
+    background-color: #eee;
+  }
+}
+
+
+
+
+// laptop =====================================
+@include laptop {
+  #artBox {
+    width: 100%; height: 1080px;
+    background-color: #eee;
+  }
+}
+
+
+
+
+
+// pc =====================================
+@include pc {
+  #artBox {
+    width: 1440px; height: 1080px;
+    background-color: #eee;
+  }
+}

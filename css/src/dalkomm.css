@@ -1,0 +1,254 @@
+@media all and (max-width: 767px) {
+  #headBox {
+    width: 100%;
+    height: 56px;
+    background-color: #ccc;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #headBox {
+    width: 100%;
+    height: 56px;
+    background-color: #ccc;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #headBox {
+    width: 100%;
+    height: 120px;
+    background-color: #ccc;
+  }
+}
+@media all and (min-width: 1440px) {
+  #headBox {
+    width: 1440px;
+    height: 56px;
+    background-color: #ccc;
+  }
+}
+@media all and (max-width: 767px) {
+  #mainBox {
+    width: 100%;
+    height: 812px;
+    background-color: #eee;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #mainBox {
+    width: 100%;
+    height: 960px;
+    background-color: #eee;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #mainBox {
+    width: 100%;
+    height: 960px;
+    background-color: #eee;
+  }
+}
+@media all and (min-width: 1440px) {
+  #mainBox {
+    width: 1440px;
+    height: 960px;
+    background-color: #eee;
+  }
+}
+@media all and (max-width: 767px) {
+  #viewBox {
+    width: 100%;
+    height: 850px;
+    background-color: #ddd;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #viewBox {
+    width: 100%;
+    height: 1080px;
+    background-color: #ddd;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #viewBox {
+    width: 100%;
+    height: 1080px;
+    background-color: #ddd;
+  }
+}
+@media all and (min-width: 1440px) {
+  #viewBox {
+    width: 1440px;
+    height: 1080px;
+    background-color: #ddd;
+  }
+}
+@media all and (max-width: 767px) {
+  #contentBox {
+    width: 100%;
+    height: 850px;
+    background-color: #ccc;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #contentBox {
+    width: 100%;
+    height: 1080px;
+    background-color: #ccc;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #contentBox {
+    width: 100%;
+    height: 1080px;
+    background-color: #ccc;
+  }
+}
+@media all and (min-width: 1440px) {
+  #contentBox {
+    width: 1440px;
+    height: 1080px;
+    background-color: #ccc;
+  }
+}
+@media all and (max-width: 767px) {
+  #artBox {
+    width: 100%;
+    height: 850px;
+    background-color: #eee;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #artBox {
+    width: 100%;
+    height: 1080px;
+    background-color: #eee;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #artBox {
+    width: 100%;
+    height: 1080px;
+    background-color: #eee;
+  }
+}
+@media all and (min-width: 1440px) {
+  #artBox {
+    width: 1440px;
+    height: 1080px;
+    background-color: #eee;
+  }
+}
+@media all and (max-width: 767px) {
+  #slideBox {
+    width: 100%;
+    height: 700px;
+    background-color: #cdc;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #slideBox {
+    width: 100%;
+    height: 1000px;
+    background-color: #cdc;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #slideBox {
+    width: 100%;
+    height: 1000px;
+    background-color: #cdc;
+  }
+}
+@media all and (min-width: 1440px) {
+  #slideBox {
+    width: 1440px;
+    height: 1000px;
+    background-color: #cdc;
+  }
+}
+@media all and (max-width: 767px) {
+  #appBox {
+    width: 100%;
+    height: 830px;
+    background-color: #ddd;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #appBox {
+    width: 100%;
+    height: 1200px;
+    background-color: #ddd;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #appBox {
+    width: 100%;
+    height: 1220px;
+    background-color: #ddd;
+  }
+}
+@media all and (min-width: 1440px) {
+  #appBox {
+    width: 1440px;
+    height: 1220px;
+    background-color: #ddd;
+  }
+}
+@media all and (max-width: 767px) {
+  #subBox {
+    width: 100%;
+    height: 560px;
+    background-color: #cdc;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #subBox {
+    width: 100%;
+    height: 800px;
+    background-color: #cdc;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #subBox {
+    width: 100%;
+    height: 750px;
+    background-color: #cdc;
+  }
+}
+@media all and (min-width: 1440px) {
+  #subBox {
+    width: 1440px;
+    height: 752px;
+    background-color: #cdc;
+  }
+}
+@media all and (max-width: 767px) {
+  #footBox {
+    width: 100%;
+    height: 600px;
+    background-color: #ccc;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #footBox {
+    width: 100%;
+    height: 870px;
+    background-color: #ccc;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #footBox {
+    width: 100%;
+    height: 760px;
+    background-color: #ccc;
+  }
+}
+@media all and (min-width: 1440px) {
+  #footBox {
+    width: 1440px;
+    height: 760px;
+    background-color: #ccc;
+  }
+}
+
+/*# sourceMappingURL=dalkomm.css.map */

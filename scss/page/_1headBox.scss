@@ -1,0 +1,42 @@
+
+
+// mobile =====================================
+@include mobile {
+  #headBox {
+    width: 100%; height: 56px;
+    background-color: #ccc;
+  }
+}
+
+
+
+// // tablet =====================================
+@include tablet {
+  #headBox {
+    width: 100%; height: 56px;
+    background-color: #ccc;
+  }
+}
+
+
+
+
+// // laptop =====================================
+@include laptop {
+  #headBox {
+    width: 100%; height: 120px;
+    background-color: #ccc;
+  }
+}
+
+
+
+
+
+// // pc =====================================
+@include pc {
+  #headBox {
+    width: 1440px; height: 56px;
+    background-color: #ccc;
+  }
+}

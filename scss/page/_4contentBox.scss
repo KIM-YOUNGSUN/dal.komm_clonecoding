@@ -1,0 +1,43 @@
+// contentBox.scss
+
+
+// mobile =====================================
+@include mobile {
+  #contentBox {
+    width: 100%; height: 850px;
+    background-color: #ccc;
+  }
+}
+
+
+
+// tablet =====================================
+@include tablet {
+  #contentBox {
+    width: 100%; height: 1080px;
+    background-color: #ccc;
+  }
+}
+
+
+
+
+// laptop =====================================
+@include laptop {
+  #contentBox {
+    width: 100%; height: 1080px;
+    background-color: #ccc;
+  }
+}
+
+
+
+
+
+// pc =====================================
+@include pc {
+  #contentBox {
+    width: 1440px; height: 1080px;
+    background-color: #ccc;
+  }
+}

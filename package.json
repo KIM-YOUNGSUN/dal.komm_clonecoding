@@ -1,0 +1,23 @@
+{
+  "name": "dal.komm_clonecoding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KIM-YOUNGSUN/dal.komm_clonecoding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KIM-YOUNGSUN/dal.komm_clonecoding/issues"
+  },
+  "homepage": "https://github.com/KIM-YOUNGSUN/dal.komm_clonecoding#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

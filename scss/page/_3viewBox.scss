@@ -1,0 +1,42 @@
+// viewBox.scss
+
+// mobile =====================================
+@include mobile {
+  #viewBox {
+    width: 100%; height: 850px;
+    background-color: #ddd;
+  }
+}
+
+
+
+// tablet =====================================
+@include tablet {
+  #viewBox {
+    width: 100%; height: 1080px;
+    background-color: #ddd;
+  }
+}
+
+
+
+
+// laptop =====================================
+@include laptop {
+  #viewBox {
+    width: 100%; height: 1080px;
+    background-color: #ddd;
+  }
+}
+
+
+
+
+
+// pc =====================================
+@include pc {
+  #viewBox {
+    width: 1440px; height: 1080px;
+    background-color: #ddd;
+  }
+}

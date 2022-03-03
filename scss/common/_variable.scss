@@ -1,0 +1,28 @@
+// variable.scss
+
+// color =========================
+$color_beige: #FBF4E4;
+
+// border =========================
+
+
+// font ===========================
+$font_family_en:"Ubuntu", "sans-serif";
+$font_family_kr:"nanum_square", "IBM Plex Sans KR";
+$font_family_common:sans-serif;
+$font_weight_thin:300;
+$font_weight_normal:400;
+$font_weight_bold:500;
+$font_weight_bolder:700;
+$font_weight: (300, 400, 500, 700);
+$font_size:(
+  title2:40px,title3:36px,title4:28px,title5:22px,
+  content1:22px, content2:18px, content3:16px, content4:12px,
+  button:22px, option1:12px, option2:10px, option3:9px);
+
+// device size ================================
+$mobile : 320px;
+$tablet : 768px;
+$laptop : 1280px;
+$pc : 1440px;
+$pcfull : 1920px;

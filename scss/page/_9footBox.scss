@@ -1,0 +1,42 @@
+// footBox.scss
+
+// mobile =====================================
+@include mobile {
+  #footBox{
+    width: 100%; height: 600px;
+    background-color: #ccc;
+  }
+}
+
+
+
+// tablet =====================================
+@include tablet {
+  #footBox{
+    width: 100%; height: 870px;
+    background-color: #ccc;
+  }
+}
+
+
+
+
+// laptop =====================================
+@include laptop {
+  #footBox{
+    width: 100%; height: 760px;
+    background-color: #ccc;
+  }
+}
+
+
+
+
+
+// pc =====================================
+@include pc {
+  #footBox{
+    width: 1440px; height: 760px;
+    background-color: #ccc;
+  }
+}
