@@ -37,7 +37,7 @@
 // pc =====================================
 @include pc {
   #contentBox {
-    width: 1440px; height: 1080px;
+    width: 100%; min-width: 1440px; height: 1080px;
     margin: auto;
     background-color: #ccc;
   }

@@ -38,7 +38,7 @@
 // pc =====================================
 @include pc {
   #artBox {
-    width: 1440px; height: 1080px;
+    width: 100%; min-width: 1440px; height: 1080px;
     margin: auto;
     background-color: #eee;
   }

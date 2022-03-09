@@ -7,6 +7,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'goldplay';
+  src: url('../../fonts/goldplay/Goldplay-Bold.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 @import "../common/mixin";
 @import "../common/variable";
 
