@@ -10,6 +10,12 @@
   font-weight: normal;
   font-style: normal;
 }
+#wrap {
+  width: 100%;
+  height: auto;
+  background-color: #FBF4E4;
+}
+
 @media all and (max-width: 767px) {
   #headBox {
     width: 100%;
@@ -126,8 +132,7 @@
 }
 @media all and (min-width: 1440px) {
   #headBox {
-    width: 100%;
-    min-width: 1440px;
+    width: 1440px;
     height: 100px;
     margin: auto;
     padding: 20px;
@@ -190,8 +195,7 @@
 @media all and (min-width: 1440px) {
   #mainBox {
     position: relative;
-    width: 100%;
-    min-width: 1440px;
+    width: 1440px;
     height: 960px;
     margin: auto;
     font-family: "goldplay";
@@ -223,6 +227,25 @@
     width: 1040px;
     height: 614px;
   }
+
+  .circle_text {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #cdc;
+    animation: span 5s linear infinite;
+    transform-origin: 50% 50%;
+  }
+  @keyframes span {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .circle_text span {
+    width: 250px;
+    height: 100%;
+    border-radius: 50%;
+  }
 }
 @media all and (max-width: 767px) {
   #viewBox {
@@ -247,8 +270,7 @@
 }
 @media all and (min-width: 1440px) {
   #viewBox {
-    width: 100%;
-    min-width: 1440px;
+    width: 1440px;
     height: 1080px;
     margin: auto;
     background-color: #ddd;
@@ -277,8 +299,7 @@
 }
 @media all and (min-width: 1440px) {
   #contentBox {
-    width: 100%;
-    min-width: 1440px;
+    width: 1440px;
     height: 1080px;
     margin: auto;
     background-color: #ccc;
@@ -307,8 +328,7 @@
 }
 @media all and (min-width: 1440px) {
   #artBox {
-    width: 100%;
-    min-width: 1440px;
+    width: 1440px;
     height: 1080px;
     margin: auto;
     background-color: #eee;
@@ -337,8 +357,7 @@
 }
 @media all and (min-width: 1440px) {
   #slideBox {
-    width: 100%;
-    min-width: 1440px;
+    width: 1440px;
     height: 1000px;
     margin: auto;
     background-color: #cdc;
@@ -367,8 +386,7 @@
 }
 @media all and (min-width: 1440px) {
   #appBox {
-    width: 100%;
-    min-width: 1440px;
+    width: 1440px;
     height: 1220px;
     margin: auto;
     background-color: #ddd;
@@ -397,8 +415,7 @@
 }
 @media all and (min-width: 1440px) {
   #subBox {
-    width: 100%;
-    min-width: 1440px;
+    width: 1440px;
     height: 752px;
     margin: auto;
     background-color: #cdc;
@@ -427,8 +444,7 @@
 }
 @media all and (min-width: 1440px) {
   #footBox {
-    width: 100%;
-    min-width: 1440px;
+    width: 1440px;
     height: 760px;
     margin: auto;
     background-color: #ccc;

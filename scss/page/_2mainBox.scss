@@ -37,7 +37,7 @@
 @include pc {
   #mainBox{
     position: relative;
-    width: 100%; min-width: 1440px; height: 960px;
+    width: 1440px; height: 960px;
     margin: auto;
     font-family: 'goldplay';
     background-color: $color_beige;
@@ -61,5 +61,13 @@
   .main_img {
     position: absolute; top: 300px;
     width: 1040px; height: 614px;
+  }
+
+  .circle_text {width: 300px; height: 300px;
+    border-radius: 50%; 
+    background-color: #cdc;
+    animation: span 5s linear infinite; transform-origin: 50% 50%;
+    @keyframes span {100% {transform: rotate(360deg);}}
+    & span {width: 250px; height: 100%; border-radius: 50%;}
   }
 } // pc

@@ -1,4 +1,5 @@
 
+#wrap {width: 100%; height: auto; background-color: $color_beige;}
 
 // mobile =====================================
 @include mobile {
@@ -80,7 +81,7 @@
 // // pc =====================================
 @include pc {
   #headBox {
-    width: 100%; min-width: 1440px; height: 100px;
+    width: 1440px; height: 100px;
     margin: auto; padding: 20px;
     text-align: center; line-height: 60px;
     background-color: $color_beige;
