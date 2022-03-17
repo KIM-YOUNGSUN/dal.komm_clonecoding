@@ -174,22 +174,141 @@
 @media all and (max-width: 767px) {
   #mainBox {
     width: 100%;
-    height: 812px;
-    background-color: #eee;
+    height: 1000px;
+    font-family: "goldplay";
+    background-color: #FBF4E4;
+  }
+  #mainBox h2 {
+    position: absolute;
+    top: 334px;
+    left: 40px;
+    z-index: 100;
+    width: 260px;
+    height: 150px;
+  }
+  #mainBox h2 span {
+    display: block;
+    width: 260px;
+    height: 50px;
+    font-size: 40px;
+    color: #FB4300;
+  }
+  #mainBox h2 span:last-child {
+    color: transparent;
+    -webkit-text-stroke: 2px #FB4300;
+    margin-top: -14px;
+  }
+
+  .main_img {
+    position: absolute;
+    top: 450px;
+    left: 20px;
+    width: 300px;
+    height: 360px;
+  }
+  .main_img .img_mo {
+    width: 245px;
+    height: 396px;
+  }
+  .main_img .img_pc {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
   }
 }
 @media all and (min-width: 768px) and (max-width: 1279px) {
   #mainBox {
     width: 100%;
     height: 960px;
-    background-color: #eee;
+    font-family: "goldplay";
+    background-color: #FBF4E4;
+  }
+  #mainBox h2 {
+    position: absolute;
+    top: 430px;
+    left: 320px;
+    z-index: 100;
+    width: 440px;
+    height: 300px;
+  }
+  #mainBox h2 span {
+    display: block;
+    width: 440px;
+    height: 70px;
+    font-size: 70px;
+    color: #FB4300;
+  }
+  #mainBox h2 span:last-child {
+    color: transparent;
+    -webkit-text-stroke: 2px #FB4300;
+    margin-top: -14px;
+  }
+
+  .main_img {
+    position: absolute;
+    top: 680px;
+    width: 600px;
+    height: 360px;
+  }
+  .main_img .img_pc {
+    width: 100%;
+    height: 100%;
+  }
+  .main_img .img_mo {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
   }
 }
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   #mainBox {
     width: 100%;
     height: 960px;
-    background-color: #eee;
+    font-family: "goldplay";
+    background-color: #FBF4E4;
+  }
+  #mainBox h2 {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    z-index: 100;
+    width: 780px;
+    height: 500px;
+  }
+  #mainBox h2 span {
+    display: block;
+    width: 100%;
+    height: 130px;
+    font-size: 120px;
+    color: #FB4300;
+  }
+  #mainBox h2 span:last-child {
+    color: transparent;
+    -webkit-text-stroke: 2px #FB4300;
+  }
+
+  .main_img {
+    position: absolute;
+    top: 300px;
+    width: 1040px;
+    height: 614px;
+  }
+  .main_img .img_mo {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
   }
 }
 @media all and (min-width: 1440px) {
@@ -227,24 +346,14 @@
     width: 1040px;
     height: 614px;
   }
-
-  .circle_text {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: #cdc;
-    animation: span 5s linear infinite;
-    transform-origin: 50% 50%;
-  }
-  @keyframes span {
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  .circle_text span {
-    width: 250px;
-    height: 100%;
-    border-radius: 50%;
+  .main_img .img_mo {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
   }
 }
 @media all and (max-width: 767px) {

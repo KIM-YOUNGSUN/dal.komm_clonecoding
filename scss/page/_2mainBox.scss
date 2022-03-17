@@ -3,10 +3,47 @@
 // mobile =====================================
 @include mobile {
   #mainBox{
-    width: 100%; height: 812px;
-    background-color: #eee;
+    width: 100%; height: 1000px;
+    font-family: 'goldplay';
+    background-color: $color_beige;
+
+    h2 {
+      position: absolute; top: 334px; left: 40px; z-index: 100;
+      width: 260px; height: 150px;
+
+      & span {
+        display: block; 
+        width: 260px; height: 50px; 
+        font-size: 40px; color: $color_red;
+        // background-color: #ccc;
+
+        &:last-child {
+          color: transparent; -webkit-text-stroke: 2px $color_red;
+          margin-top: -14px;
+        }
+      }
+    }
+  } // #mainBox
+
+  .main_img {
+    position: absolute; top: 450px; left: 20px;
+    width: 300px; height: 360px;
+
+    .img_mo {width: 245px; height: 396px;}
+    .img_pc {@include blind}
   }
-}
+
+  // .circle_text {width: 300px; height: 300px;
+  //   border-radius: 50%; 
+  //   background-color: #cdc;
+  //   animation: span 5s linear infinite; transform-origin: 50% 50%;
+  //   @keyframes span {100% {transform: rotate(360deg);}}
+  //   & span {width: 250px; height: 100%; border-radius: 50%;}
+  // }
+
+
+  
+} // mobile
 
 
 
@@ -14,9 +51,42 @@
 @include tablet {
   #mainBox{
     width: 100%; height: 960px;
-    background-color: #eee;
+    font-family: 'goldplay';
+    background-color: $color_beige;
+
+    h2 {
+      position: absolute; top: 430px; left: 320px; z-index: 100;
+      width: 440px; height: 300px;
+
+      & span {
+        display: block; 
+        width: 440px; height: 70px; 
+        font-size: 70px; color: $color_red;
+        // background-color: #ccc;
+
+        &:last-child {
+          color: transparent; -webkit-text-stroke: 2px $color_red;
+          margin-top: -14px;
+        }
+      }
+    }
+  } // #mainBox
+
+  .main_img {
+    position: absolute; top: 680px;
+    width: 600px; height: 360px;
+    .img_pc {width: 100%; height: 100%;}
+    .img_mo {@include blind}
   }
-}
+
+  // .circle_text {width: 300px; height: 300px;
+  //   border-radius: 50%; 
+  //   background-color: #cdc;
+  //   animation: span 5s linear infinite; transform-origin: 50% 50%;
+  //   @keyframes span {100% {transform: rotate(360deg);}}
+  //   & span {width: 250px; height: 100%; border-radius: 50%;}
+  // }
+} // tablet
 
 
 
@@ -25,9 +95,40 @@
 @include laptop {
   #mainBox{
     width: 100%; height: 960px;
-    background-color: #eee;
+    font-family: 'goldplay';
+    background-color: $color_beige;
+
+    h2 {
+      position: absolute; top: 100px; left: 500px; z-index: 100;
+      width: 780px; height: 500px;
+
+      & span {
+        display: block; 
+        width: 100%; height: 130px; 
+        font-size: 120px; color: $color_red;
+        // background-color: #ccc;
+        &:last-child {
+          color: transparent; -webkit-text-stroke: 2px $color_red;
+        }
+      }
+    }
+  } // #mainBox
+
+  .main_img {
+    position: absolute; top: 300px;
+    width: 1040px; height: 614px;
+
+    .img_mo {@include blind}
   }
-}
+
+  // .circle_text {width: 300px; height: 300px;
+  //   border-radius: 50%; 
+  //   background-color: #cdc;
+  //   animation: span 5s linear infinite; transform-origin: 50% 50%;
+  //   @keyframes span {100% {transform: rotate(360deg);}}
+  //   & span {width: 250px; height: 100%; border-radius: 50%;}
+  // }
+} // laptop
 
 
 
@@ -61,13 +162,15 @@
   .main_img {
     position: absolute; top: 300px;
     width: 1040px; height: 614px;
+
+    .img_mo {@include blind}
   }
 
-  .circle_text {width: 300px; height: 300px;
-    border-radius: 50%; 
-    background-color: #cdc;
-    animation: span 5s linear infinite; transform-origin: 50% 50%;
-    @keyframes span {100% {transform: rotate(360deg);}}
-    & span {width: 250px; height: 100%; border-radius: 50%;}
-  }
+  // .circle_text {width: 300px; height: 300px;
+  //   border-radius: 50%; 
+  //   background-color: #cdc;
+  //   animation: span 5s linear infinite; transform-origin: 50% 50%;
+  //   @keyframes span {100% {transform: rotate(360deg);}}
+  //   & span {width: 250px; height: 100%; border-radius: 50%;}
+  // }
 } // pc
